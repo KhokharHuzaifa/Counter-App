@@ -9,6 +9,7 @@ const RootReducer = combineReducers({
     counterReducer: CounterSlice.reducer
 })
 
+// Configure persist for local storage
 const persistconfig = {
     key:'Root',
     storage,
