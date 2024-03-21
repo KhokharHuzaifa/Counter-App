@@ -22,4 +22,5 @@ export const Store = configureStore({
     reducer: persistedReducer
 })
 
+// Passing persisted store to the persistor
 export const persistor = persistStore(Store);
