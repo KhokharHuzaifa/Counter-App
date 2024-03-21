@@ -4,6 +4,7 @@ import { CounterSlice } from "./CounterReducer";
 import { persistStore , persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
+// Combining reducers into root reducer
 const RootReducer = combineReducers({
     counterReducer: CounterSlice.reducer
 })
