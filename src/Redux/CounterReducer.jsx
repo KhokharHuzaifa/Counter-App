@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-// Creating a s
+// Creating a sl
 export const CounterSlice = createSlice({
     name:'Counter',
     initialState:{
