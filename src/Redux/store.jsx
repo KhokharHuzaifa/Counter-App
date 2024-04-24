@@ -1,4 +1,4 @@
-import { combineReducers, configureStore } from "@reduxjs/toolkit";
+i { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { CounterSlice } from "./CounterReducer";
 // Persisting materaial imported
 import { persistStore , persistReducer } from "redux-persist";
